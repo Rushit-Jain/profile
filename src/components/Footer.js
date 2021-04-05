@@ -84,8 +84,8 @@ const footer = (props) => {
         </div>
         <div className="heading-white col-lg-4 col-6">
             <h5>Get in Touch With Me</h5>
-            <div style={{marginBottom: "10px", marginTop: "20px"}}><PhoneIcon style={{fontSize: "30pt"}} />+91-&nbsp;9969994007</div><br></br>
-            <div style={{marginBottom: "10px"}}><EmailIcon style={{fontSize: "30pt"}} /> <a id="mail-link" href="mailto:rushit07@gmail.com?Subject=Enquiry">rushit07@gmail.com</a></div><br></br>
+            <div style={{marginBottom: "10px", marginTop: "20px"}}><PhoneIcon style={{fontSize: "30pt"}} /> <a className="contact-link" href="tel:+91-9969994007">+91-&nbsp;9969994007</a></div><br></br>
+            <div style={{marginBottom: "10px"}}><EmailIcon style={{fontSize: "30pt"}} /> <a className="contact-link" href="mailto:rushit07@gmail.com?Subject=Enquiry">rushit07@gmail.com</a></div><br></br>
             <div style={{marginBottom: "10px"}}><HomeIcon style={{fontSize: "30pt"}} /> D-2801, Imperial Heights, Off BEST Colony, Goregaon-West, Mumbai-400104</div><br></br>
         </div>
         <div className="mt-5 col-lg-4 col-12">

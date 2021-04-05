@@ -145,12 +145,12 @@
   background-color: rgb(242,239,143) !important;
 }
 
-#mail-link {
+.contact-link {
   text-decoration: none;
   color: white;
 }
 
-#mail-link:hover {
+.contact-link:hover {
   color: #F0A07C;
 }
 
