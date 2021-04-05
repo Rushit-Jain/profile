@@ -1,38 +1,166 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-component {
+  background-color: rgba(255,255,255,0.5);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer {
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+  padding: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-link:hover{
+  text-decoration: none;
+  color: #F0A07C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-name {
+  color: white;
+  font-size: 16pt;
+}
+
+.footer-nav {
+  font-size: 12pt;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  text-align: left;
+}
+
+.footer-nav:hover{
+  text-decoration: none;
+  color: #f2e58f;
+}
+
+.profile {
+  text-align: center;
+  background-image: linear-gradient(to right,white, #ffbe7bff);
+}
+
+.profile-image {
+  border-radius: 100%;
+  border: solid #F3EFE0 20px;
+}
+
+.profile-padding {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.heading-blue {
+  color: #191970;
+}
+
+.heading-white {
+  color: #F3EFE0;
+}
+
+.experience {
+  background-image: linear-gradient(to right,black, #191970);
+}
+
+.interests {
+  background-image: linear-gradient(to right, black, #480048);
+}
+
+.education {
+  background-image: linear-gradient(to right, black, #480048);
+}
+
+.skills {
+  background-image: linear-gradient(to right,black, #191970);
+}
+
+.skills-list {
+  list-style-type: none;
+}
+
+.certifications {
+  background-image: linear-gradient(to right, black, #480048);
+}
+
+.projects-links, .projects-links:hover {
+  color: #EEA47FFF;
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+
+.nav-link-style {
+  font-size: 17pt;
+  margin-right: 12px;
+  color: white;
+  padding: 10px;
+  font-family: 'Mallanna', sans-serif;
+}
+
+.nav-brand{
+  color: #f2e58f;
+  font-size: 25pt;
+  padding: 15px;
+  margin-right: 18px;
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
+.nav-link-style:hover, .nav-brand:hover{
+  color: #f2e58f;
+  text-decoration: none;
+}
+
+.active-link{
+  color: #f2e58f;
+  border: 1px solid #f2e58f;
+  border-radius: 100px;
+}
+
+.active-footer-link{
+  color: #f2e58f;
+  border-bottom: 2px solid #f2e58f;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242,239,143, 1)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+  border-color: rgb(242,239,143) !important;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(84,20,118, 1)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler:hover{
+  background-color: rgb(242,239,143) !important;
+}
+
+#mail-link {
+  text-decoration: none;
+  color: white;
+}
+
+#mail-link:hover {
+  color: #F0A07C;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 100ms ease-in;
 }
