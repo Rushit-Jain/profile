@@ -12,14 +12,9 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import { Redirect, Switch, Route, withRouter } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
-import { Random, Fade } from "react-animation-components";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
-    // console.log(this.props);
     return (
       <div className="App">
         <Navigation />
