@@ -20,7 +20,7 @@ const profile = (props) => {
               also been involved in Java programming and have an experience of 7
               years in programming with Java. I love code structuring and
               maintaining a clean code, thereby ensuring quality. I spend a lot
-              of time in designing and enhacing the visual impact of the web
+              of time in designing and enhancing the visual impact of the web
               pages I create. I like working in a team because 'two heads are
               better than one.'
             </p>
