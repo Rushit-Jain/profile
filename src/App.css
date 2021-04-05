@@ -152,6 +152,7 @@
 
 .contact-link:hover {
   color: #F0A07C;
+  text-decoration: none;
 }
 
 .page-enter {
