@@ -84,15 +84,15 @@ const footer = (props) => {
         </div>
         <div className="heading-white col-lg-4 col-6">
             <h5>Get in Touch With Me</h5>
-            <div style={{marginBottom: "10px", marginTop: "20px"}}><PhoneIcon style={{fontSize: "30pt"}} /> +91 9969994007</div><br></br>
+            <div style={{marginBottom: "10px", marginTop: "20px"}}><PhoneIcon style={{fontSize: "30pt"}} />+91-&nbsp;9969994007</div><br></br>
             <div style={{marginBottom: "10px"}}><EmailIcon style={{fontSize: "30pt"}} /> <a id="mail-link" href="mailto:rushit07@gmail.com?Subject=Enquiry">rushit07@gmail.com</a></div><br></br>
-            <div style={{marginBottom: "10px"}}><HomeIcon style={{fontSize: "30pt"}} />  D-2801, Imperial Heights, Off BEST Colony, Goregaon-West, Mumbai-400104</div><br></br>
+            <div style={{marginBottom: "10px"}}><HomeIcon style={{fontSize: "30pt"}} /> D-2801, Imperial Heights, Off BEST Colony, Goregaon-West, Mumbai-400104</div><br></br>
         </div>
         <div className="mt-5 col-lg-4 col-12">
             <a target="__blank" className="footer-link" href="http://www.linkedin.com/in/rushit-jain-2977661a0"><div style={{display: "inline-block", marginRight: "20px", marginBottom: "10px"}}><LinkedInIcon style={{fontSize: "30pt"}} /></div></a>
             <a className="footer-link" target="__blank" href="https://github.com/Rushit-Jain"><div style={{display: "inline-block", marginRight: "20px", marginBottom: "10px"}}><GitHubIcon style={{fontSize: "30pt"}} /></div></a>
             <a target="__blank" className="footer-link" href="https://www.instagram.com/rushit.jain/"><div style={{display: "inline-block", marginRight: "20px", marginBottom: "10px"}}><InstagramIcon style={{fontSize: "30pt"}} /></div></a>
-            <a className="footer-link" target="__blank" href="https://www.facebook.com/rushit.jain007"><div style={{display: "inline-block", marginRight: "20px", marginBottom: "10px"}}><FacebookIcon style={{fontSize: "30pt"}} /></div></a>
+            <a className="footer-link" target="__blank" href="https://www.facebook.com/rushit.jain007"><div className="mr-lg-5" style={{display: "inline-block",  marginBottom: "10px"}}><FacebookIcon style={{fontSize: "30pt"}} /></div></a>
         </div>
       </div>
     </div>
