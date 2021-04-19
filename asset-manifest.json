@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.392a0863.chunk.css",
-    "main.js": "/profile/static/js/main.ddd1b445.chunk.js",
-    "main.js.map": "/profile/static/js/main.ddd1b445.chunk.js.map",
+    "main.js": "/profile/static/js/main.cbd098a2.chunk.js",
+    "main.js.map": "/profile/static/js/main.cbd098a2.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.30488dab.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.30488dab.js.map",
     "static/css/2.150d169a.chunk.css": "/profile/static/css/2.150d169a.chunk.css",
@@ -14,13 +14,13 @@
     "static/css/2.150d169a.chunk.css.map": "/profile/static/css/2.150d169a.chunk.css.map",
     "static/css/main.392a0863.chunk.css.map": "/profile/static/css/main.392a0863.chunk.css.map",
     "static/js/2.b03fc65d.chunk.js.LICENSE.txt": "/profile/static/js/2.b03fc65d.chunk.js.LICENSE.txt",
-    "static/media/Rushit Jain Resume.a856623c.pdf": "/profile/static/media/Rushit Jain Resume.a856623c.pdf"
+    "static/media/Rushit Jain Resume.77732d4a.pdf": "/profile/static/media/Rushit Jain Resume.77732d4a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.30488dab.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b03fc65d.chunk.js",
     "static/css/main.392a0863.chunk.css",
-    "static/js/main.ddd1b445.chunk.js"
+    "static/js/main.cbd098a2.chunk.js"
   ]
 }
