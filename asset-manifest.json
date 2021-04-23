@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.392a0863.chunk.css",
-    "main.js": "/profile/static/js/main.cbd098a2.chunk.js",
-    "main.js.map": "/profile/static/js/main.cbd098a2.chunk.js.map",
-    "runtime-main.js": "/profile/static/js/runtime-main.30488dab.js",
-    "runtime-main.js.map": "/profile/static/js/runtime-main.30488dab.js.map",
+    "main.js": "/profile/static/js/main.f018f2d2.chunk.js",
+    "main.js.map": "/profile/static/js/main.f018f2d2.chunk.js.map",
+    "runtime-main.js": "/profile/static/js/runtime-main.9dfbe087.js",
+    "runtime-main.js.map": "/profile/static/js/runtime-main.9dfbe087.js.map",
     "static/css/2.150d169a.chunk.css": "/profile/static/css/2.150d169a.chunk.css",
-    "static/js/2.b03fc65d.chunk.js": "/profile/static/js/2.b03fc65d.chunk.js",
-    "static/js/2.b03fc65d.chunk.js.map": "/profile/static/js/2.b03fc65d.chunk.js.map",
-    "static/js/3.e8d52ff5.chunk.js": "/profile/static/js/3.e8d52ff5.chunk.js",
-    "static/js/3.e8d52ff5.chunk.js.map": "/profile/static/js/3.e8d52ff5.chunk.js.map",
+    "static/js/2.73aa1271.chunk.js": "/profile/static/js/2.73aa1271.chunk.js",
+    "static/js/2.73aa1271.chunk.js.map": "/profile/static/js/2.73aa1271.chunk.js.map",
+    "static/js/3.affef783.chunk.js": "/profile/static/js/3.affef783.chunk.js",
+    "static/js/3.affef783.chunk.js.map": "/profile/static/js/3.affef783.chunk.js.map",
     "index.html": "/profile/index.html",
     "static/css/2.150d169a.chunk.css.map": "/profile/static/css/2.150d169a.chunk.css.map",
     "static/css/main.392a0863.chunk.css.map": "/profile/static/css/main.392a0863.chunk.css.map",
-    "static/js/2.b03fc65d.chunk.js.LICENSE.txt": "/profile/static/js/2.b03fc65d.chunk.js.LICENSE.txt",
-    "static/media/Rushit Jain Resume.77732d4a.pdf": "/profile/static/media/Rushit Jain Resume.77732d4a.pdf"
+    "static/js/2.73aa1271.chunk.js.LICENSE.txt": "/profile/static/js/2.73aa1271.chunk.js.LICENSE.txt",
+    "static/media/Rushit Jain Resume.83d6444a.pdf": "/profile/static/media/Rushit Jain Resume.83d6444a.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.30488dab.js",
+    "static/js/runtime-main.9dfbe087.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.b03fc65d.chunk.js",
+    "static/js/2.73aa1271.chunk.js",
     "static/css/main.392a0863.chunk.css",
-    "static/js/main.cbd098a2.chunk.js"
+    "static/js/main.f018f2d2.chunk.js"
   ]
 }
