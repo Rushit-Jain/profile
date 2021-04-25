@@ -1,12 +1,15 @@
-import React from "react";
+import React, {useState }from "react";
 import "../App.css";
+import resume from "../Rushit Jain Resume.pdf";
+import { acrobatFilled, acrobatUnfilled } from "./Icons";
 
-const profile = (props) => {
+const Profile = (props) => {
+  const [acrobat,setAcrobat] = useState(false);
   return (
     <div className="profile p-5">
       <div className="container">
         <h1 className="heading-blue profile-padding">Profile</h1>
-        <h4 className="profile-padding">STUDENT MENTOR AT TSEC, BANDRA</h4>
+        <h4 className="profile-padding">ORACLE CERTIFIED JAVA PROFESSIONAL, MICROSOFT TECHNOLOGY ASSOCIATE AND STUDENT MENTOR AT TSEC</h4>
         <h6 className="profile-padding">
           <i>"A Web Development and Java Programming Enthusiast"</i>
         </h6>
@@ -70,8 +73,18 @@ const profile = (props) => {
           </div>
         </div>
       </div>
+      <a href={resume} target="_blank" onMouseEnter = {() => setAcrobat(true)} onMouseLeave = {() => setAcrobat(false)}>
+      <button class="animated-button">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <div style={{display: "inline-block", marginRight: "20px", marginBottom: "10px", width: "50px", height: "50px", marginTop:"10px"}}>{acrobat ? acrobatFilled : acrobatUnfilled}</div>
+  View PDF
+</button>
+      </a>
     </div>
   );
 };
 
-export default profile;
+export default Profile;

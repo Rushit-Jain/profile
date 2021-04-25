@@ -13,7 +13,13 @@ const footer = (props) => {
   return (
     <div className="footer">
       <div className="row">
-        <div className="col-lg-4 col-6">
+        <div  className="d-none d-lg-block col-lg-4 col-6">
+          <blockquote style={{color: "white"}}>
+            <i>"A class in an object-oriented language is where we teach objects how to behave"</i><br />
+            <cite>- Richard E. Pattis</cite>
+          </blockquote>
+        </div>
+        {/* <div className="col-lg-4 col-6">
           <NavLink
             className="footer-nav"
             activeClassName="active-footer-link"
@@ -81,8 +87,8 @@ const footer = (props) => {
           <a target="__blank" className="footer-nav" href={resume}>
             View&nbsp;PDF
           </a>
-        </div>
-        <div className="heading-white col-lg-4 col-6">
+        </div> */}
+        <div className="heading-white col-lg-4 col-12">
             <h5>Get in Touch With Me</h5>
             <div style={{marginBottom: "10px", marginTop: "20px"}}><PhoneIcon style={{fontSize: "30pt"}} /> <a className="contact-link" href="tel:+91-9969994007">+91-&nbsp;9969994007</a></div><br></br>
             <div style={{marginBottom: "10px"}}><EmailIcon style={{fontSize: "30pt"}} /> <a className="contact-link" href="mailto:rushit07@gmail.com?Subject=Enquiry">rushit07@gmail.com</a></div><br></br>
