@@ -62,7 +62,7 @@ const certifications = (props) => {
       year: "2021",
       description: "Java SE 11,Examination 1Z0-819",
       link:
-        "https://drive.google.com/file/d/15BPdpQ1hVJQfqax4m9Z8jqhx-NU8VbQ4/view?usp=sharing,https://catalog-education.oracle.com/pls/certview/sharebadge?id=91F94664CF4876FD7AB5F04B4018E01A71019561B2B513D4E0251E2638AFC298",
+        "https://drive.google.com/file/d/15BPdpQ1hVJQfqax4m9Z8jqhx-NU8VbQ4/view?usp=sharing,https://www.credly.com/badges/2c4dea32-db43-427d-b74b-21b7f253e2c1/public_url,https://catalog-education.oracle.com/pls/certview/sharebadge?id=91F94664CF4876FD7AB5F04B4018E01A71019561B2B513D4E0251E2638AFC298",
     },
     {
       name: "Full Stack Web Development",
